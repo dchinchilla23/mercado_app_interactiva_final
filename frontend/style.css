@@ -1,0 +1,61 @@
+
+body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+.contenedor { display: flex; flex-wrap: wrap; max-width: 1200px; margin: auto; padding: 1rem; background: white; }
+.galeria { flex: 1; min-width: 300px; padding: 1rem; }
+.galeria img { width: 100%; border-radius: 8px; }
+.detalles { flex: 2; min-width: 300px; padding: 1rem; }
+.titulo { font-size: 1.5em; font-weight: bold; margin-bottom: 0.5rem; }
+.precio { font-size: 2em; color: #00a650; margin: 1rem 0; }
+.label { font-weight: bold; margin-top: 1rem; }
+.valor { margin-left: 0.5rem; }
+.vendedor, .stock, .metodos, .descripcion, .caracteristicas, .opiniones, .relacionados {
+    margin: 1.5rem 0;
+}
+.opiniones ul, .caracteristicas ul { padding-left: 1.2rem; }
+@media (max-width: 768px) {
+    .contenedor { flex-direction: column; }
+}
+
+h1.titulo-catalogo {
+  text-align: center;
+  margin-top: 1rem;
+}
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card .precio {
+  color: #00a650;
+  font-weight: bold;
+}
+.card .boton-detalle {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #3483fa;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.volver {
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
+  color: #3483fa;
+  font-weight: bold;
+}

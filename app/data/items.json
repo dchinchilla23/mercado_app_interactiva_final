@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "titulo": "Smartphone Android 256GB",
+    "descripcion": "Teléfono de gama media con excelente cámara y batería de larga duración.",
+    "precio": 899.99,
+    "metodos_pago": [
+      "Tarjeta de crédito",
+      "Efectivo",
+      "Transferencia",
+      "Pago contra entrega"
+    ],
+    "vendedor": "Tienda XYZ",
+    "stock": 20,
+    "imagenes": [
+      "https://via.placeholder.com/500x500?text=Smartphone"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Audífonos Bluetooth",
+    "descripcion": "Audífonos inalámbricos con cancelación de ruido y batería de 30 horas.",
+    "precio": 199.99,
+    "metodos_pago": [
+      "Tarjeta",
+      "Crédito sin intereses",
+      "PSE"
+    ],
+    "vendedor": "TechSound",
+    "stock": 35,
+    "imagenes": [
+      "https://via.placeholder.com/500x500?text=Audifonos"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Smartwatch Fitness",
+    "descripcion": "Reloj inteligente para monitoreo deportivo, resistencia al agua y GPS.",
+    "precio": 299.0,
+    "metodos_pago": [
+      "Efectivo",
+      "Crédito",
+      "Mercado Pago"
+    ],
+    "vendedor": "WearableCo",
+    "stock": 12,
+    "imagenes": [
+      "https://via.placeholder.com/500x500?text=Smartwatch"
+    ]
+  }
+]
