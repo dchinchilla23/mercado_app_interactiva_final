@@ -5,7 +5,7 @@ class Item:
     Clase que representa un producto estilo MercadoLibre.
     """
     def __init__(self, id: int, titulo: str, descripcion: str, precio: float,
-                 metodos_pago: List[str], vendedor: str, stock: int, imagenes: List[str]):
+                 metodos_pago: List[str], vendedor: str, stock: int, imagenes: List[str], reseña: str):
         self.id = id
         self.titulo = titulo
         self.descripcion = descripcion
@@ -14,6 +14,7 @@ class Item:
         self.vendedor = vendedor
         self.stock = stock
         self.imagenes = imagenes
+        self.reseña = reseña
 
     def a_diccionario(self):
         return {
@@ -24,7 +25,8 @@ class Item:
             "metodos_pago": self.metodos_pago,
             "vendedor": self.vendedor,
             "stock": self.stock,
-            "imagenes": self.imagenes
+            "imagenes": self.imagenes,
+            "reseña": self.reseña
         }
 
     @staticmethod
@@ -37,5 +39,6 @@ class Item:
             metodos_pago=data["metodos_pago"],
             vendedor=data["vendedor"],
             stock=data["stock"],
-            imagenes=data["imagenes"]
+            imagenes=data["imagenes"],
+            reseña=data["reseña"]
         )

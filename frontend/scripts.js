@@ -30,6 +30,7 @@ function fetchDetalle(id) {
           <div class="metodos"><b>Formas de pago:</b> ${data.metodos_pago.join(", ")}</div>
           <div class="vendedor"><b>Vendido por:</b> ${data.vendedor}</div>
           <div class="descripcion"><b>Descripción:</b><p>${data.descripcion}</p></div>
+          <div class="reseña"><b>Reseña:</b><p>${data.reseña}</p></div>
           <button class="favorite-button" data-product-id="${data.id}"><i class="far fa-heart"></i> </button>
         </div>
       `;contenedor.innerHTML = html;

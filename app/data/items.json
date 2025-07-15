@@ -2,6 +2,7 @@
   {
     "id": 1,
     "titulo": "Smartphone Android 256GB",
+    "reseña": "vendedor de alta calificación",
     "descripcion": "Teléfono de gama media con excelente cámara y batería de larga duración.",
     "precio": 899.99,
     "metodos_pago": [
@@ -11,8 +12,6 @@
       "Pago contra entrega"
     ],
     "vendedor": "Tienda XYZ",
-    "Reseña": "vendedor de alta calificación",
-
     "stock": 20,
     "imagenes": [
       "https://http2.mlstatic.com/D_NQ_NP_652358-CBT80497852438_112024-O.webp"
@@ -21,6 +20,7 @@
   {
     "id": 2,
     "titulo": "Audífonos Bluetooth",
+    "reseña": "vendendedor proemedio",
     "descripcion": "Audífonos inalámbricos con cancelación de ruido y batería de 30 horas.",
     "precio": 199.99,
     "metodos_pago": [
@@ -37,6 +37,7 @@
   {
     "id": 3,
     "titulo": "Smartwatch Fitness",
+    "reseña": "vendedor confiable.",
     "descripcion": "Reloj inteligente para monitoreo deportivo, resistencia al agua y GPS.",
     "precio": 299.0,
     "metodos_pago": [
