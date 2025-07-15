@@ -14,6 +14,7 @@ function fetchProductos() {
     });
 }
 
+// #●	El punto de conexión principal debe capturar los detalles del producto
 function fetchDetalle(id) {
   fetch("http://localhost:8000/productos/" + id)
     .then(res => res.json())
@@ -27,7 +28,7 @@ function fetchDetalle(id) {
           <div class="titulo">${data.titulo}</div>
           <div class="precio">US$ ${data.precio}</div>
           <div class="stock"><b>Stock disponible:</b> ${data.stock} unidades</div>
-          <div class="metodos"><b>Formas de pago:</b> ${data.metodos_pago.join(", ")}</div>
+          <div class="metodos"><b>Formas de pago:</b><ul class="lista-pagos">${data.metodos_pago.map(metodo => `<li><i class="fas fa-credit-card"></i> ${metodo}</li>`).join("")}</ul></div>          
           <div class="vendedor"><b>Vendido por:</b> ${data.vendedor}</div>
           <div class="descripcion"><b>Descripción:</b><p>${data.descripcion}</p></div>
           <div class="reseña"><b>Reseña:</b><p>${data.reseña}</p></div>

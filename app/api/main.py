@@ -14,7 +14,7 @@ app.add_middleware(
 
 servicio = ItemService("app/data/items.json")
 
-#listado de productos.
+#listado de productos. /// ●	Implemente una API RESTful que admita el frontend proporcionando los detalles necesarios del producto
 @app.get("/productos/{id_item}")
 def obtener_item(id_item: int):
     item = servicio.obtener_item_por_id(id_item)
