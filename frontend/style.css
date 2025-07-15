@@ -59,3 +59,36 @@ h1.titulo-catalogo {
   color: #3483fa;
   font-weight: bold;
 }
+
+.favorite-button {
+    background: none; /* Sin fondo */
+    border: none;
+    cursor: pointer;
+    font-size: 28px; 
+    font-family: 'Material Icons' !important; /* Asegúrate de que la fuente de Material Icons esté cargada */
+    font-size: 20px;
+    color: #999; 
+    padding: 8px; 
+    transition: color 0.2s ease-in-out; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.favorite-button:hover {
+    color: #666; /* Un poco más oscuro al pasar el ratón */
+    background-color: rgba(0, 0, 0, 0.05); 
+}
+
+/* Estilo cuando el corazón está "favorited" (relleno) */
+.favorite-button .fas.fa-heart {
+    color: #1215e7; /* Azul clásico para un ícono de favorito */
+    /* O puedes usar el verde de Mercado Libre para un "añadido" si lo prefieres: color: #1215e7; */
+}
+
+/* relleno que  tenga un efecto al pasar el ratón diferente */
+.favorite-button.favorited:hover {
+    color: #1215e7; /* Un rojo más oscuro al pasar el ratón cuando ya está en favoritos */
+    background-color: rgba(255, 0, 0, 0.1); /* Un fondo azuk */
+}

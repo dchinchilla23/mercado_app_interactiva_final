@@ -30,7 +30,21 @@ function fetchDetalle(id) {
           <div class="metodos"><b>Formas de pago:</b> ${data.metodos_pago.join(", ")}</div>
           <div class="vendedor"><b>Vendido por:</b> ${data.vendedor}</div>
           <div class="descripcion"><b>Descripción:</b><p>${data.descripcion}</p></div>
-        </div>`;
-      contenedor.innerHTML = html;
+          <button class="favorite-button" data-product-id="${data.id}"><i class="far fa-heart"></i> </button>
+        </div>
+      `;contenedor.innerHTML = html;
+      // Activar interacción del botón de me gusta
+const botonMeGusta = document.querySelector(".favorite-button");
+if (botonMeGusta) {
+  botonMeGusta.addEventListener("click", () => {
+    botonMeGusta.classList.toggle("activo");
+    botonMeGusta.innerHTML = botonMeGusta.classList.contains("activo")
+      ? '<i class="fas fa-heart"></i>'
+      : '<i class="far fa-heart"></i>';
+  });
+}
+
     });
+
+    
 }

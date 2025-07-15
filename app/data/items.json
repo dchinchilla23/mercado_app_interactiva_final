@@ -11,9 +11,11 @@
       "Pago contra entrega"
     ],
     "vendedor": "Tienda XYZ",
+    "Reseña": "vendedor de alta calificación",
+
     "stock": 20,
     "imagenes": [
-      "https://via.placeholder.com/500x500?text=Smartphone"
+      "https://http2.mlstatic.com/D_NQ_NP_652358-CBT80497852438_112024-O.webp"
     ]
   },
   {
@@ -29,7 +31,7 @@
     "vendedor": "TechSound",
     "stock": 35,
     "imagenes": [
-      "https://via.placeholder.com/500x500?text=Audifonos"
+      "https://m.media-amazon.com/images/I/61mJKW9SGmL._AC_SY355_.jpg"
     ]
   },
   {
@@ -45,7 +47,7 @@
     "vendedor": "WearableCo",
     "stock": 12,
     "imagenes": [
-      "https://via.placeholder.com/500x500?text=Smartwatch"
+      "https://http2.mlstatic.com/D_NQ_NP_997585-MCO80432267969_112024-O.webp"
     ]
   }
 ]

@@ -9,7 +9,7 @@ Aplicación de detalle de productos estilo MercadoLibre.
 
 ## Levantar
 - Instalar dependencias: pip install -r requirements.txt
-- Ejecutar: uvicorn main:app --reload
+- Ejecutar: uvicorn app.api.main:app --reload
 
 1. ejecución desde la raíz. backend
 uvicorn app.api.main:app --reload
